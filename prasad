@@ -67,7 +67,14 @@ git log
 git push
 
 
-
+-----------------------------------
+git clone https://github.com/polarapu/batch75.git
+cd batch75
+touch prasad
+git status
+git add prasad
+git commit -m "sample file from prasad"
+git push
 
 
 
