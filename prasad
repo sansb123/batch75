@@ -1,3 +1,58 @@
+git init
+
+git config --global user.name "Polarapu Prasad"
+
+git config --global user.email "devopstraining2015@gmail.com"
+
+git config --list
+
+git config --global --unset user.name
+
+git config --global --unset user.email
+
+-------------------
+touch file1
+ls
+git status
+git add file1
+git status
+git commit -m "label" file1
+git status
+git log
+git show cid
+
+
+------------
+touch file2 file3 file4
+ls
+git status
+git add file2 file3 file4
+or
+git add .
+or
+git add *
+or
+git add -A
+git commit -m "label"
+git status
+git log
+git show cid
+
+--------------------------------
+git add file  (workspace to staging)
+git reset head file  (staging to workspace)
+
+git commit -m "label" file   (staging to local)
+git reset --soft cid   (local to staging)
+
+git reset --mixed cid   (local to workspace)
+
+git reset --hard cid   (to delete that cid and files)
+
+
+
+----------------------
+
 git clone https://github.com/Amanitatineni/Repo1.git
 ls
 cd Repo1
@@ -10,10 +65,6 @@ git commit -m "label" file1
 git status
 git log
 git push
-hfjfs
-dd
-
-
 
 
 ----------------------
@@ -22,9 +73,9 @@ git clone https://github.com/Amanitatineni/Repo1.git
 ls
 cd Repo1
 touch file1
-dsdjksdkddls
+ls
 git status
-git add fidddddle1
+git add file1
 git status
 git commit -m "label" file1
 git status
@@ -46,13 +97,13 @@ git push
 
 git clone https://github.com/polarapu/batch75.git
 cd batch75
-touch prasadffffffffffffffffffffffffffff
+touch prasad
 git status
 git add prasad
 git commit -m "sample file from prasad"
 git push
 git pull --rebase
-git pushfhdsjdkdkdsaoue7w
+git push
 
 mkdir prasad-dir
 cd prasad-dir
@@ -70,9 +121,6 @@ git push
 
 
 
-
-
-djkkkkkkkkkkkkkkkkkkkkkkkkkhyeeeeeeeeeeeeeeeeeeeeeeeee
 
 
 
