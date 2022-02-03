@@ -1,0 +1,6 @@
+git clone https://github.com/polarapu/batch75.git
+git touch filename
+git add * 
+git add filename
+git commit -m "comment"
+git push
